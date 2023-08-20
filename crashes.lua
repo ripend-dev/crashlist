@@ -82,3 +82,5 @@ local crash = {
         end
     end
 }
+
+return crash
