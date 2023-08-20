@@ -2,7 +2,7 @@ local chat = function(msg) game.Players:Chat(msg) end
 
 local crash = {
     ['freezecrash'] = function()
-        for i = 1, 200 do
+        for i = 1, 100 do
             chat('freeze '..string.rep(' all', 40))
             task.wait()
         end
@@ -11,7 +11,7 @@ local crash = {
         end
     end,
     ['hatcrash'] = function()
-        for i = 1, 650 do
+        for i = 1, 100 do
             chat('hat all 000000000000000000000000000000012597599966')
             task.wait()
         end
@@ -20,7 +20,7 @@ local crash = {
         end
     end,
     ['shieldcrash'] = function()
-        for i = 1, 200 do
+        for i = 1, 100 do
             chat('shield/all/all/all/all/all/all/all')
             task.wait()
         end
