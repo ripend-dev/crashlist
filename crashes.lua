@@ -30,7 +30,7 @@ local crash = {
             chat('gear me 0000000000000000000080661504')
         end
         task.wait(0.1)
-        for _, v in next, game.Players.LocalPlayer.Backpack:GetChildren() do
+        for _, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
             v.Parent = game.Players.LocalPlayer.Character
         end
         task.wait(0.1)
@@ -44,7 +44,7 @@ local crash = {
             chat('gear me 0000000000000000000000477911027')
         end
         task.wait(0.1)
-        for _, v in next, game.Players.LocalPlayer.Backpack:GetChildren() do
+        for _, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
             v.Parent = game.Players.LocalPlayer.Character
         end
         task.wait(0.1)
@@ -58,11 +58,11 @@ local crash = {
             chat('gear me 000000000000000000000035366215')
         end
         task.wait(0.1)
-        for _, v in next, game.Players.LocalPlayer.Backpack:GetChildren() do
+        for _, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
             v.Parent = game.Players.LocalPlayer.Character
         end
         task.wait(0.1)
-        for _, v in next, game.Players.LocalPlayer.Character:GetChildren() do
+        for _, v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
             if v:IsA('Tool') then
                 v:Activate()
             end
@@ -73,7 +73,7 @@ local crash = {
             chat('gear me 000000000000000000000035293856')
         end
         task.wait(0.1)
-        for _, v in next, game.Players.LocalPlayer.Backpack:GetChildren() do
+        for _, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
             v.Parent = game.Players.LocalPlayer.Character
         end
         task.wait(0.1)
