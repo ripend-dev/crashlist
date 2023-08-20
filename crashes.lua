@@ -1,9 +1,4 @@
-local function chat(message)
-    local text = ChatBar.Text
-    ChatBar:SetTextFromInput(message)
-    players:Chat(message)
-    ChatBar:SetTextFromInput(text)
-end
+local chat = function(msg) game.Players:Chat(msg) end
 
 local crash = {
     ['freezecrash'] = function()
