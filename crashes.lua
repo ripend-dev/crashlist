@@ -4,25 +4,28 @@ local crash = {
     ['freezecrash'] = function()
         for i = 1, 1750 do
             chat('freeze '..string.rep(' all', 40))
-            chat('clone all all all')
-            chat('removeclones')
             task.wait()
+        end
+        for i = 1, 3450 do
+            chat('clone all all all')
         end
     end,
     ['hatcrash'] = function()
-        for i = 1, 3650 do
+        for i = 1, 650 do
             chat('hat all 000000000000000000000000000000012597599966')
-            chat('clone all all all')
-            chat('removeclones')
             task.wait()
+        end
+        for i = 1, 3650 do
+            chat('clone all all all')
         end
     end,
     ['shieldcrash'] = function()
-        for i = 1, 3650 do
+        for i = 1, 2250 do
             chat('shield/all/all/all/all/all/all/all')
-            chat('clone all all all')
-            chat('removeclones')
             task.wait()
+        end
+        for i = 1, 4500 do
+            chat('clone all all all')
         end
     end,
     ['chartreusecrash'] = function()
