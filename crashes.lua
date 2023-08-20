@@ -29,10 +29,10 @@ local crash = {
         end
     end,
     ['chartreusecrash'] = function()
-        for i = 1, 150 do
+        for i = 1, 60 do
             chat('gear me 0000000000000000000080661504')
         end
-        task.wait(0.1)
+        task.wait(0.7)
         for _, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
             v.Parent = game.Players.LocalPlayer.Character
         end
@@ -43,10 +43,11 @@ local crash = {
         end
     end,
     ['hyperbikecrash'] = function()
-        for i = 1, 150 do
+        for i = 1, 60 do
             chat('gear me 0000000000000000000000477911027')
+            task.wait()
         end
-        task.wait(0.1)
+        task.wait(0.7)
         for _, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
             v.Parent = game.Players.LocalPlayer.Character
         end
@@ -57,7 +58,7 @@ local crash = {
         end
     end,
     ['roboarmcrash'] = function()
-        for i = 1, 150 do
+        for i = 1, 60 do
             chat('gear me 000000000000000000000035366215')
         end
         task.wait(0.1)
@@ -72,16 +73,18 @@ local crash = {
         end
     end,
     ['atomizercrash'] = function()
-        for i = 1, 150 do
+        for i = 1, 60 do
             chat('gear me 000000000000000000000035293856')
+            task.wait()
         end
-        task.wait(0.1)
+        task.wait(0.7)
         for _, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
             v.Parent = game.Players.LocalPlayer.Character
         end
         task.wait(0.1)
         for i = 1, 2765 do
             chat('clone all all all')
+            task.wait()
         end
     end
 }
