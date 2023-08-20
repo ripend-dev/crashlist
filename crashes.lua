@@ -1,8 +1,8 @@
 local function chat(message)
-	local text = ChatBar.Text
-	ChatBar:SetTextFromInput(message)
-	players:Chat(message)
-	ChatBar:SetTextFromInput(text)
+    local text = ChatBar.Text
+    ChatBar:SetTextFromInput(message)
+    players:Chat(message)
+    ChatBar:SetTextFromInput(text)
 end
 
 local crash = {
